@@ -1,5 +1,5 @@
 # grpc_logging
-`import "github.com/grpc-ecosystem/go-grpc-middleware/logging"`
+`import "github.com/smallstep-team/go-grpc-middleware/logging"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

@@ -1,5 +1,5 @@
 # grpc_zap
-`import "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"`
+`import "github.com/smallstep-team/go-grpc-middleware/logging/zap"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -164,10 +164,10 @@ _ = grpc.NewServer(
 
 - [github.com/golang/protobuf/jsonpb](https://godoc.org/github.com/golang/protobuf/jsonpb)
 - [github.com/golang/protobuf/proto](https://godoc.org/github.com/golang/protobuf/proto)
-- [github.com/grpc-ecosystem/go-grpc-middleware](./../..)
-- [github.com/grpc-ecosystem/go-grpc-middleware/logging](./..)
-- [github.com/grpc-ecosystem/go-grpc-middleware/logging/zap/ctxzap](./ctxzap)
-- [github.com/grpc-ecosystem/go-grpc-middleware/tags/zap](./../../tags/zap)
+- [github.com/smallstep-team/go-grpc-middleware](./../..)
+- [github.com/smallstep-team/go-grpc-middleware/logging](./..)
+- [github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap](./ctxzap)
+- [github.com/smallstep-team/go-grpc-middleware/tags/zap](./../../tags/zap)
 - [go.uber.org/zap](https://godoc.org/go.uber.org/zap)
 - [go.uber.org/zap/zapcore](https://godoc.org/go.uber.org/zap/zapcore)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)

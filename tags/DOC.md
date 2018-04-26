@@ -1,5 +1,5 @@
 # grpc_ctxtags
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tags"`
+`import "github.com/smallstep-team/go-grpc-middleware/tags"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -62,7 +62,7 @@ _ = grpc.NewServer(
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/grpc-ecosystem/go-grpc-middleware](./..)
+- [github.com/smallstep-team/go-grpc-middleware](./..)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
 - [google.golang.org/grpc](https://godoc.org/google.golang.org/grpc)
 - [google.golang.org/grpc/peer](https://godoc.org/google.golang.org/grpc/peer)

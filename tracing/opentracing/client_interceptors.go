@@ -7,10 +7,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
+	"github.com/smallstep-team/go-grpc-middleware/util/metautils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"

@@ -1,5 +1,5 @@
 # grpc_auth
-`import "github.com/grpc-ecosystem/go-grpc-middleware/auth"`
+`import "github.com/smallstep-team/go-grpc-middleware/auth"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -30,8 +30,8 @@ Please see examples for simple examples of use.
 package grpc_auth_test
 
 import (
-    "github.com/grpc-ecosystem/go-grpc-middleware/auth"
-    "github.com/grpc-ecosystem/go-grpc-middleware/tags"
+    "github.com/smallstep-team/go-grpc-middleware/auth"
+    "github.com/smallstep-team/go-grpc-middleware/tags"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
     "google.golang.org/grpc/codes"
@@ -76,8 +76,8 @@ func Example_serverConfig() {
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/grpc-ecosystem/go-grpc-middleware](./..)
-- [github.com/grpc-ecosystem/go-grpc-middleware/util/metautils](./../util/metautils)
+- [github.com/smallstep-team/go-grpc-middleware](./..)
+- [github.com/smallstep-team/go-grpc-middleware/util/metautils](./../util/metautils)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
 - [google.golang.org/grpc](https://godoc.org/google.golang.org/grpc)
 - [google.golang.org/grpc/codes](https://godoc.org/google.golang.org/grpc/codes)

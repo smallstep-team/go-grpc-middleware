@@ -1,5 +1,5 @@
 # ctx_zap
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tags/zap"`
+`import "github.com/smallstep-team/go-grpc-middleware/tags/zap"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -20,7 +20,7 @@ Please see examples and tests for examples of use.
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/grpc-ecosystem/go-grpc-middleware/tags](./..)
+- [github.com/smallstep-team/go-grpc-middleware/tags](./..)
 - [go.uber.org/zap](https://godoc.org/go.uber.org/zap)
 - [go.uber.org/zap/zapcore](https://godoc.org/go.uber.org/zap/zapcore)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)

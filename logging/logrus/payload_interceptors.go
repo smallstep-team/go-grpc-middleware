@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags/logrus"
 	"github.com/sirupsen/logrus"
+	"github.com/smallstep-team/go-grpc-middleware/logging"
+	"github.com/smallstep-team/go-grpc-middleware/tags/logrus"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

@@ -1,7 +1,7 @@
 package grpc_ctxtags_test
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
+	"github.com/smallstep-team/go-grpc-middleware/tags"
 	"google.golang.org/grpc"
 )
 

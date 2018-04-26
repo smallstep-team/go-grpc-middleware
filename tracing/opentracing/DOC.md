@@ -1,5 +1,5 @@
 # grpc_opentracing
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"`
+`import "github.com/smallstep-team/go-grpc-middleware/tracing/opentracing"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -23,9 +23,9 @@ For more information see:
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/grpc-ecosystem/go-grpc-middleware](./../..)
-- [github.com/grpc-ecosystem/go-grpc-middleware/tags](./../../tags)
-- [github.com/grpc-ecosystem/go-grpc-middleware/util/metautils](./../../util/metautils)
+- [github.com/smallstep-team/go-grpc-middleware](./../..)
+- [github.com/smallstep-team/go-grpc-middleware/tags](./../../tags)
+- [github.com/smallstep-team/go-grpc-middleware/util/metautils](./../../util/metautils)
 - [github.com/opentracing/opentracing-go](https://godoc.org/github.com/opentracing/opentracing-go)
 - [github.com/opentracing/opentracing-go/ext](https://godoc.org/github.com/opentracing/opentracing-go/ext)
 - [github.com/opentracing/opentracing-go/log](https://godoc.org/github.com/opentracing/opentracing-go/log)

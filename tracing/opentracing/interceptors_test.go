@@ -15,13 +15,13 @@ import (
 
 	"io"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	grpc_testing "github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/mocktracer"
+	"github.com/smallstep-team/go-grpc-middleware"
+	"github.com/smallstep-team/go-grpc-middleware/tags"
+	grpc_testing "github.com/smallstep-team/go-grpc-middleware/testing"
+	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+	grpc_opentracing "github.com/smallstep-team/go-grpc-middleware/tracing/opentracing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

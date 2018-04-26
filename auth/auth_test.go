@@ -13,10 +13,10 @@ import (
 
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/auth"
-	"github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/smallstep-team/go-grpc-middleware/auth"
+	"github.com/smallstep-team/go-grpc-middleware/testing"
+	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep-team/go-grpc-middleware/util/metautils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"

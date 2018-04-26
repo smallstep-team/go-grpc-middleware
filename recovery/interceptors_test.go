@@ -6,10 +6,10 @@ package grpc_recovery_test
 import (
 	"testing"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/recovery"
-	"github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep-team/go-grpc-middleware"
+	"github.com/smallstep-team/go-grpc-middleware/recovery"
+	"github.com/smallstep-team/go-grpc-middleware/testing"
+	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

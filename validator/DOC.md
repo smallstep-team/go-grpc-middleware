@@ -1,5 +1,5 @@
 # grpc_validator
-`import "github.com/grpc-ecosystem/go-grpc-middleware/validator"`
+`import "github.com/smallstep-team/go-grpc-middleware/validator"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

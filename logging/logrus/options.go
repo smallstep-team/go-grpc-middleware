@@ -6,8 +6,8 @@ package grpc_logrus
 import (
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging"
 	"github.com/sirupsen/logrus"
+	"github.com/smallstep-team/go-grpc-middleware/logging"
 	"google.golang.org/grpc/codes"
 )
 

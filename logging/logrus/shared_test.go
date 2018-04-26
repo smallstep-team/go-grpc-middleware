@@ -6,12 +6,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags/logrus"
-	"github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
 	"github.com/sirupsen/logrus"
+	"github.com/smallstep-team/go-grpc-middleware/logging/logrus"
+	"github.com/smallstep-team/go-grpc-middleware/tags"
+	"github.com/smallstep-team/go-grpc-middleware/tags/logrus"
+	"github.com/smallstep-team/go-grpc-middleware/testing"
+	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/codes"
 )

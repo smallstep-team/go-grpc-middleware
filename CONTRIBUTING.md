@@ -1,6 +1,6 @@
 # Contributing
 
-We would love to have people submit pull requests and help make `grpc-ecosystem/go-grpc-middleware` even better 👍.
+We would love to have people submit pull requests and help make `smallstep-team/go-grpc-middleware` even better 👍.
 
 Fork, then clone the repo:
 

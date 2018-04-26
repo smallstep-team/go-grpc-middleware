@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep-team/go-grpc-middleware/logging/zap"
+	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
 	"go.uber.org/zap/zapcore"
 )
 

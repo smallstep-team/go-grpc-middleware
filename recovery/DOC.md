@@ -1,5 +1,5 @@
 # grpc_recovery
-`import "github.com/grpc-ecosystem/go-grpc-middleware/recovery"`
+`import "github.com/smallstep-team/go-grpc-middleware/recovery"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -25,8 +25,8 @@ Please see examples for simple examples of use.
 package grpc_recovery_test
 
 import (
-    "github.com/grpc-ecosystem/go-grpc-middleware"
-    "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
+    "github.com/smallstep-team/go-grpc-middleware"
+    "github.com/smallstep-team/go-grpc-middleware/recovery"
     "google.golang.org/grpc"
 )
 
