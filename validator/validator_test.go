@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 
-	"github.com/smallstep-team/go-grpc-middleware/testing"
-	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
-	"github.com/smallstep-team/go-grpc-middleware/validator"
+	"github.com/smallstep/go-grpc-middleware/testing"
+	pb_testproto "github.com/smallstep/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep/go-grpc-middleware/validator"
 )
 
 var (

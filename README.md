@@ -1,17 +1,17 @@
 # Go gRPC Middleware
 
-[![Travis Build](https://travis-ci.org/smallstep-team/go-grpc-middleware.svg?branch=master)](https://travis-ci.org/smallstep-team/go-grpc-middleware)
-[![Go Report Card](https://goreportcard.com/badge/github.com/smallstep-team/go-grpc-middleware)](https://goreportcard.com/report/github.com/smallstep-team/go-grpc-middleware)
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/smallstep-team/go-grpc-middleware)
-[![SourceGraph](https://sourcegraph.com/github.com/smallstep-team/go-grpc-middleware/-/badge.svg)](https://sourcegraph.com/github.com/smallstep-team/go-grpc-middleware/?badge)
-[![codecov](https://codecov.io/gh/smallstep-team/go-grpc-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/smallstep-team/go-grpc-middleware)
+[![Travis Build](https://travis-ci.org/smallstep/go-grpc-middleware.svg?branch=master)](https://travis-ci.org/smallstep/go-grpc-middleware)
+[![Go Report Card](https://goreportcard.com/badge/github.com/smallstep/go-grpc-middleware)](https://goreportcard.com/report/github.com/smallstep/go-grpc-middleware)
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/smallstep/go-grpc-middleware)
+[![SourceGraph](https://sourcegraph.com/github.com/smallstep/go-grpc-middleware/-/badge.svg)](https://sourcegraph.com/github.com/smallstep/go-grpc-middleware/?badge)
+[![codecov](https://codecov.io/gh/smallstep/go-grpc-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/smallstep/go-grpc-middleware)
 [![Apache 2.0 License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![quality: production](https://img.shields.io/badge/quality-production-orange.svg)](#status)
 [![Slack](slack.png)](https://join.slack.com/t/improbable-eng/shared_invite/enQtMzQ1ODcyMzQ5MjM4LWY5ZWZmNGM2ODc5MmViNmQ3ZTA3ZTY3NzQwOTBlMTkzZmIxZTIxODk0OWU3YjZhNWVlNDU3MDlkZGViZjhkMjc)
 
 [gRPC Go](https://github.com/grpc/grpc-go) Middleware: interceptors, helpers, utilities.
 
-**Important** The repo recently moved to `github.com/smallstep-team/go-grpc-middleware`, please update your import paths.
+**Important** The repo recently moved to `github.com/smallstep/go-grpc-middleware`, please update your import paths.
 
 ## Middleware
 
@@ -27,7 +27,7 @@ some of them itself, but also will link to useful external repos.
 `grpc_middleware` itself provides support for chaining interceptors. See [Documentation](DOC.md), but here's an example:
 
 ```go
-import "github.com/smallstep-team/go-grpc-middleware"
+import "github.com/smallstep/go-grpc-middleware"
 
 myServer := grpc.NewServer(
     grpc.StreamInterceptor(grpc_middleware.ChainStreamServer(
@@ -63,8 +63,8 @@ myServer := grpc.NewServer(
 
 
 #### Monitoring
-   * [`grpc_prometheus`⚡](https://github.com/smallstep-team/go-grpc-prometheus) - Prometheus client-side and server-side monitoring middleware
-   * [`otgrpc`⚡](https://github.com/smallstep-team/grpc-opentracing/tree/master/go/otgrpc) - [OpenTracing](http://opentracing.io/) client-side and server-side interceptors
+   * [`grpc_prometheus`⚡](https://github.com/smallstep/go-grpc-prometheus) - Prometheus client-side and server-side monitoring middleware
+   * [`otgrpc`⚡](https://github.com/smallstep/grpc-opentracing/tree/master/go/otgrpc) - [OpenTracing](http://opentracing.io/) client-side and server-side interceptors
    * [`grpc_opentracing`](tracing/opentracing) - [OpenTracing](http://opentracing.io/) client-side and server-side interceptors with support for streaming and handler-returned tags
 
 #### Client

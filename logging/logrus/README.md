@@ -1,5 +1,5 @@
 # grpc_logrus
-`import "github.com/smallstep-team/go-grpc-middleware/logging/logrus"`
+`import "github.com/smallstep/go-grpc-middleware/logging/logrus"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -133,10 +133,10 @@ _ = grpc.NewServer(
 
 - [github.com/golang/protobuf/jsonpb](https://godoc.org/github.com/golang/protobuf/jsonpb)
 - [github.com/golang/protobuf/proto](https://godoc.org/github.com/golang/protobuf/proto)
-- [github.com/smallstep-team/go-grpc-middleware](./../..)
-- [github.com/smallstep-team/go-grpc-middleware/logging](./..)
-- [github.com/smallstep-team/go-grpc-middleware/logging/logrus/ctxlogrus](./ctxlogrus)
-- [github.com/smallstep-team/go-grpc-middleware/tags/logrus](./../../tags/logrus)
+- [github.com/smallstep/go-grpc-middleware](./../..)
+- [github.com/smallstep/go-grpc-middleware/logging](./..)
+- [github.com/smallstep/go-grpc-middleware/logging/logrus/ctxlogrus](./ctxlogrus)
+- [github.com/smallstep/go-grpc-middleware/tags/logrus](./../../tags/logrus)
 - [github.com/sirupsen/logrus](https://godoc.org/github.com/sirupsen/logrus)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
 - [google.golang.org/grpc](https://godoc.org/google.golang.org/grpc)

@@ -1,5 +1,5 @@
 # grpc_retry
-`import "github.com/smallstep-team/go-grpc-middleware/retry"`
+`import "github.com/smallstep/go-grpc-middleware/retry"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -82,8 +82,8 @@ for {
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/smallstep-team/go-grpc-middleware/util/backoffutils](./../util/backoffutils)
-- [github.com/smallstep-team/go-grpc-middleware/util/metautils](./../util/metautils)
+- [github.com/smallstep/go-grpc-middleware/util/backoffutils](./../util/backoffutils)
+- [github.com/smallstep/go-grpc-middleware/util/metautils](./../util/metautils)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
 - [golang.org/x/net/trace](https://godoc.org/golang.org/x/net/trace)
 - [google.golang.org/grpc](https://godoc.org/google.golang.org/grpc)

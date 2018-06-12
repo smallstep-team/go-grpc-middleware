@@ -2,7 +2,7 @@ package ctxlogrus
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/smallstep-team/go-grpc-middleware/tags"
+	"github.com/smallstep/go-grpc-middleware/tags"
 	"golang.org/x/net/context"
 )
 

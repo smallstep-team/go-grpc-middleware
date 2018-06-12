@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/opentracing/opentracing-go"
-	"github.com/smallstep-team/go-grpc-middleware/tags"
+	"github.com/smallstep/go-grpc-middleware/tags"
 	"google.golang.org/grpc/grpclog"
 )
 

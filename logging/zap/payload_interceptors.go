@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"github.com/smallstep-team/go-grpc-middleware/logging"
-	"github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/smallstep/go-grpc-middleware/logging"
+	"github.com/smallstep/go-grpc-middleware/logging/zap/ctxzap"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/net/context"

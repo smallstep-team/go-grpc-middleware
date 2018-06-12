@@ -1,8 +1,8 @@
 package grpc_auth_test
 
 import (
-	"github.com/smallstep-team/go-grpc-middleware/auth"
-	"github.com/smallstep-team/go-grpc-middleware/tags"
+	"github.com/smallstep/go-grpc-middleware/auth"
+	"github.com/smallstep/go-grpc-middleware/tags"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

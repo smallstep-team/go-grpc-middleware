@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/sirupsen/logrus"
-	"github.com/smallstep-team/go-grpc-middleware/logging/logrus"
+	"github.com/smallstep/go-grpc-middleware/logging/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+	pb_testproto "github.com/smallstep/go-grpc-middleware/testing/testproto"
 )
 
 func customClientCodeToLevel(c codes.Code) logrus.Level {

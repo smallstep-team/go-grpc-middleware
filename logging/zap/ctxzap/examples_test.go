@@ -3,9 +3,9 @@ package ctxzap_test
 import (
 	"context"
 
-	"github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap"
-	"github.com/smallstep-team/go-grpc-middleware/tags"
-	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/smallstep/go-grpc-middleware/tags"
+	pb_testproto "github.com/smallstep/go-grpc-middleware/testing/testproto"
 	"go.uber.org/zap"
 )
 

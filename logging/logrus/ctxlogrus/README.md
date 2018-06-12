@@ -1,5 +1,5 @@
 # ctx_logrus
-`import "github.com/smallstep-team/go-grpc-middleware/tags/logrus"`
+`import "github.com/smallstep/go-grpc-middleware/tags/logrus"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -20,7 +20,7 @@ Please see examples and tests for examples of use.
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/smallstep-team/go-grpc-middleware/tags](./..)
+- [github.com/smallstep/go-grpc-middleware/tags](./..)
 - [github.com/sirupsen/logrus](https://godoc.org/github.com/sirupsen/logrus)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
 

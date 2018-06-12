@@ -6,7 +6,7 @@ package grpc_auth
 import (
 	"testing"
 
-	"github.com/smallstep-team/go-grpc-middleware/util/metautils"
+	"github.com/smallstep/go-grpc-middleware/util/metautils"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

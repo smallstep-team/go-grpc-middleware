@@ -3,7 +3,7 @@ package grpc_zap
 import (
 	"time"
 
-	"github.com/smallstep-team/go-grpc-middleware/logging"
+	"github.com/smallstep/go-grpc-middleware/logging"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"google.golang.org/grpc/codes"

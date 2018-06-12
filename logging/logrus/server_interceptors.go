@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/smallstep-team/go-grpc-middleware"
-	"github.com/smallstep-team/go-grpc-middleware/logging/logrus/ctxlogrus"
-	"github.com/smallstep-team/go-grpc-middleware/tags/logrus"
+	"github.com/smallstep/go-grpc-middleware"
+	"github.com/smallstep/go-grpc-middleware/logging/logrus/ctxlogrus"
+	"github.com/smallstep/go-grpc-middleware/tags/logrus"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

@@ -1,5 +1,5 @@
 # metautils
-`import "github.com/smallstep-team/go-grpc-middleware/util/metautils"`
+`import "github.com/smallstep/go-grpc-middleware/util/metautils"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

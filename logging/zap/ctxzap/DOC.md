@@ -1,5 +1,5 @@
 # ctxzap
-`import "github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap"`
+`import "github.com/smallstep/go-grpc-middleware/logging/zap/ctxzap"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -21,7 +21,7 @@ Please see examples and tests for examples of use.
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/smallstep-team/go-grpc-middleware/tags](./../../../tags)
+- [github.com/smallstep/go-grpc-middleware/tags](./../../../tags)
 - [go.uber.org/zap](https://godoc.org/go.uber.org/zap)
 - [go.uber.org/zap/zapcore](https://godoc.org/go.uber.org/zap/zapcore)
 - [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context)
@@ -63,9 +63,9 @@ package ctxzap_test
 import (
     "context"
 
-    "github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap"
-    "github.com/smallstep-team/go-grpc-middleware/tags"
-    pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+    "github.com/smallstep/go-grpc-middleware/logging/zap/ctxzap"
+    "github.com/smallstep/go-grpc-middleware/tags"
+    pb_testproto "github.com/smallstep/go-grpc-middleware/testing/testproto"
     "go.uber.org/zap"
 )
 

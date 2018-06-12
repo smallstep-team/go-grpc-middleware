@@ -4,7 +4,7 @@
 package grpc_auth
 
 import (
-	"github.com/smallstep-team/go-grpc-middleware"
+	"github.com/smallstep/go-grpc-middleware"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

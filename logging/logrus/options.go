@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/smallstep-team/go-grpc-middleware/logging"
+	"github.com/smallstep/go-grpc-middleware/logging"
 	"google.golang.org/grpc/codes"
 )
 

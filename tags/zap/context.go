@@ -1,7 +1,7 @@
 package ctx_zap
 
 import (
-	"github.com/smallstep-team/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/smallstep/go-grpc-middleware/logging/zap/ctxzap"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/net/context"

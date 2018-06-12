@@ -6,7 +6,7 @@ package grpc_auth
 import (
 	"strings"
 
-	"github.com/smallstep-team/go-grpc-middleware/util/metautils"
+	"github.com/smallstep/go-grpc-middleware/util/metautils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

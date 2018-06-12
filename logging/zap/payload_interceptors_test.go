@@ -11,14 +11,14 @@ import (
 
 	"io"
 
-	"github.com/smallstep-team/go-grpc-middleware"
-	"github.com/smallstep-team/go-grpc-middleware/tags"
-	pb_testproto "github.com/smallstep-team/go-grpc-middleware/testing/testproto"
+	"github.com/smallstep/go-grpc-middleware"
+	"github.com/smallstep/go-grpc-middleware/tags"
+	pb_testproto "github.com/smallstep/go-grpc-middleware/testing/testproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/smallstep-team/go-grpc-middleware/logging/zap"
+	"github.com/smallstep/go-grpc-middleware/logging/zap"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
