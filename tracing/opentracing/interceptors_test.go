@@ -245,7 +245,12 @@ func (jaegerFormatInjector) Inject(ctx mocktracer.MockSpanContext, carrier inter
 type jaegerFormatExtractor struct{}
 
 func (jaegerFormatExtractor) Extract(carrier interface{}) (mocktracer.MockSpanContext, error) {
-	rval := mocktracer.MockSpanContext{0, 0, true, nil}
+	rval := mocktracer.MockSpanContext{
+		TraceID: 0,
+		SpanID:  0,
+		Sampled: true,
+		Baggage: nil,
+	}
 	reader, ok := carrier.(opentracing.TextMapReader)
 	if !ok {
 		return rval, opentracing.ErrInvalidCarrier

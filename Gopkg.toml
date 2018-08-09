@@ -31,5 +31,5 @@
   name = "golang.org/x/oauth2"
 
 [[constraint]]
+  branch = "master"
   name = "google.golang.org/grpc"
-  version = "1.8.0"
